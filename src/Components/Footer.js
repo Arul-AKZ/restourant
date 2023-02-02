@@ -1,4 +1,4 @@
-import { faFacebookSquare, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookSquare, faInstagram, faTiktok, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
@@ -45,13 +45,16 @@ const Footer = () => {
             <a className='link text-neutral-700' href="https://graphicburger.com/"> Google</a> & <a className='link text-neutral-700' href="https://unsplash.com/">Unsplash</a></p>
           </div>
           <div className='col-40 flex flex-col items-center mr-10'>
-            <a className='link' href="#"><FontAwesomeIcon icon={faTwitter} color="gray" size="lg"></FontAwesomeIcon></a>
+            <a className='link' href="https://www.tiktok.com/@tamogo_"><FontAwesomeIcon icon={faTiktok} color="gray" size="lg"></FontAwesomeIcon></a>
           </div>
           <div className='col-40 flex flex-col items-center mr-10'>
-            <a className='link' href="#"><FontAwesomeIcon icon={faFacebookSquare} color="gray" size="lg"></FontAwesomeIcon></a>
+            <a className='link' href="https://www.facebook.com/ahmad.khairul.56829446/"><FontAwesomeIcon icon={faFacebookSquare} color="gray" size="lg"></FontAwesomeIcon></a>
+          </div>
+          <div className='col-40 flex flex-col items-center mr-10'>
+            <a className='link' href="https://www.instagram.com/ahmad_khairul_zahid/"><FontAwesomeIcon icon={faInstagram} color="gray" size="lg"></FontAwesomeIcon></a>
           </div>
           <div className='col-40 flex flex-col items-center'>
-            <a className='link' href="#"><FontAwesomeIcon icon={faInstagram} color="gray" size="lg"></FontAwesomeIcon></a>
+            <a className='link' href="https://twitter.com/KahirulAhmad"><FontAwesomeIcon icon={faTwitter} color="gray" size="lg"></FontAwesomeIcon></a>
           </div>
         </div>
 

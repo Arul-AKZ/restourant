@@ -97,21 +97,21 @@ const Menu = () => {
                       <div class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
                         {loading ? (
                           <>
-                          <div className="flex h-screen justify-center items-center">
+                          <div className="flex h-screen justify-center stroke-black items-center "> 
+                          <h3 className="mr-3"> <strong>Tunggu Bentar Ya....</strong> </h3>
                             <ReactLoading 
-                            type="cylon"
+                            type="spin"
                             width={64}
                             height={64}
-                            color="black"/>
+                            color="white"/>
                           </div>
                           </>
                         ) : (
                           <>
                           <div class="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
                           <h5
-                            class="text-xl font-medium leading-normal text-gray-800"
-                            id="exampleModalXlLabel"
-                          >
+                            class="text-xl font-medium leading-normal text-gray-800 h-full"
+                            id="exampleModalXlLabel">
                             {foodModal.strMeal} - {foodModal.strArea}
                           </h5>
                           <button
