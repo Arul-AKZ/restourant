@@ -22,8 +22,8 @@ const About = () => {
           Berawal dari bisnis iseng iseng, yang membuat ulang makanan dari mancan negara, dan bisa punya website seperti sekarang 
           </strong> </p>
         
-        <div className="btn-about py-4">
-          <a href="#" className='uppercase border-b-2 border-black transition duration-200 hover:border-indigo-500'> About Us</a>
+        <div className="btn-about py-4 text-sm mt-5">
+          <a href="#" className='uppercase border-b-2 border-black transition duration-200 hover:border-indigo-500'>Tentang Kami</a>
         </div>
 
         </div>

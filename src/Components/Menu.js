@@ -73,7 +73,7 @@ const Menu = () => {
 
                 <div className="btn-more mt-10 flex">
                   <button
-                    className="uppercase ml-auto text-sm relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
+                    className="uppercase ml-auto text-xs relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
                     before:bottom-0 before:left-0 before:bg-indigo-400                    before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
                     before:transition before:ease-in-out before:duration-300" 
                     data-bs-toggle="modal"
@@ -82,7 +82,7 @@ const Menu = () => {
                     value={foodModal}
                     onClick={(e) => getFoodModal(m.idMeal)}
                   >
-                    Read More
+                    Baca Selanjutnya
                   </button>
 
                   <div
