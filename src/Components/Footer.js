@@ -1,4 +1,4 @@
-import { faFacebookSquare, faInstagram, faTiktok, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookSquare, faInstagram, faReddit, faTiktok, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
@@ -52,6 +52,9 @@ const Footer = () => {
           </div>
           <div className='col-40 flex flex-col items-center mr-10'>
             <a className='link' href="https://www.instagram.com/ahmad_khairul_zahid/"><FontAwesomeIcon icon={faInstagram} color="gray" size="lg"></FontAwesomeIcon></a>
+          </div>
+          <div className='col-40 flex flex-col items-center mr-10'>
+            <a className='link' href="https://www.reddit.com/user/StatisticianIcy2376"><FontAwesomeIcon icon={faReddit} color="gray" size="lg"></FontAwesomeIcon></a>
           </div>
           <div className='col-40 flex flex-col items-center'>
             <a className='link' href="https://twitter.com/KahirulAhmad"><FontAwesomeIcon icon={faTwitter} color="gray" size="lg"></FontAwesomeIcon></a>
